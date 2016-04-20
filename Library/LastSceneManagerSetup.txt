@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/LettersFloodTest.unity
+- path: Assets/Scenes/TrailsTest.unity
   isLoaded: 1
   isActive: 1

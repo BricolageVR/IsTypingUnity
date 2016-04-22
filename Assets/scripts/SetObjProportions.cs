@@ -9,7 +9,7 @@ public class SetObjProportions : MonoBehaviour {
     //private const float zCameraCorrectionCofficient = -0.0805f;
     //private const float yCameraCorrectionCofficient = -0.675f;
 
-    private const float labelYSize = 1.24f;
+    public float labelYSize = 1.5f;
     public Transform OVR_CamRef;
     public Transform[] labels;
     public Vector2 distanceRange;
@@ -21,7 +21,7 @@ public class SetObjProportions : MonoBehaviour {
         float z = 0;
         for (int i = 0; i < labels.Length; i++)
         {
-            z = (int)Random.Range(distanceRange.x, distanceRange.y);
+            z = Random.Range(distanceRange.x, distanceRange.y);
             Vector3 screen = Camera.main.WorldToScreenPoint(new Vector3(0, nextY, 0));
             Vector3 world = Camera.main.ScreenToWorldPoint(new Vector3(screen.x,screen.y,10.0805f + z));
             Debug.Log(screen);

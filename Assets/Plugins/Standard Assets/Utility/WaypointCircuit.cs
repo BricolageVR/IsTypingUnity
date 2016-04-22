@@ -63,7 +63,7 @@ namespace UnityStandardAssets.Utility
 
             if (Length == 0)
             {
-                Length = distances[distances.Length - 1];
+                Length = distances[distances.Length - 2];
             }
 
             dist = Mathf.Repeat(dist, Length);
@@ -75,7 +75,16 @@ namespace UnityStandardAssets.Utility
 
 
             // get nearest two points, ensuring points wrap-around start & end of circuit
-            p1n = ((point - 1) + numPoints)%numPoints;
+            if(point > 0 )
+            {
+                p1n = (point - 1);
+
+            }
+            else
+            {
+                p1n = 0;
+            }
+            //p1n = ((point - 1) + numPoints) % numPoints;
             p2n = point;
 
             // found point numbers, now find interpolation value between the two middle points
@@ -89,13 +98,29 @@ namespace UnityStandardAssets.Utility
 
                 // get indices for the surrounding 2 points, because
                 // four points are required by the catmull-rom function
-                p0n = ((point - 2) + numPoints)%numPoints;
-                p3n = (point + 1)%numPoints;
+                //p0n = ((point - 2) + numPoints) % numPoints;
+                //p3n = (point + 1) % numPoints;
+                if(point > 1)
+                {
+                    p0n = point - 2;
+                }
+                else
+                {
+                    p0n = 0;
+                }
+                if(numPoints-1 > point)
+                {
+                    p0n = point + 1;
+                }
+                else
+                {
+                    p0n = numPoints - 1;
+                }
 
                 // 2nd point may have been the 'last' point - a dupe of the first,
                 // (to give a value of max track distance instead of zero)
                 // but now it must be wrapped back to zero if that was the case.
-                p2n = p2n%numPoints;
+                //p2n = p2n % numPoints;
 
                 P0 = points[p0n];
                 P1 = points[p1n];
@@ -130,22 +155,28 @@ namespace UnityStandardAssets.Utility
         {
             // transfer the position of each point and distances between points to arrays for
             // speed of lookup at runtime
-            points = new Vector3[Waypoints.Length + 1];
-            distances = new float[Waypoints.Length + 1];
+            points = new Vector3[Waypoints.Length];
+            distances = new float[Waypoints.Length];
 
             float accumulateDistance = 0;
-            for (int i = 0; i < points.Length; ++i)
+            for (int i = 0; i < distances.Length - 1; ++i)
             {
-                var t1 = Waypoints[(i)%Waypoints.Length];
-                var t2 = Waypoints[(i + 1)%Waypoints.Length];
+                //var t1 = Waypoints[(i) % Waypoints.Length];
+                //var t2 = Waypoints[(i + 1) % Waypoints.Length];
+                
+                var t1 = Waypoints[(i)];
+                var t2 = Waypoints[(i + 1)];
                 if (t1 != null && t2 != null)
                 {
                     Vector3 p1 = t1.position;
                     Vector3 p2 = t2.position;
-                    points[i] = Waypoints[i%Waypoints.Length].position;
+                    //points[i] = Waypoints[i%Waypoints.Length].position;
+                    points[i] = Waypoints[i].position;
                     distances[i] = accumulateDistance;
                     accumulateDistance += (p1 - p2).magnitude;
                 }
+                points[points.Length - 1] = Waypoints[points.Length-1].position;
+                distances[distances.Length - 1] = accumulateDistance;
             }
         }
 
@@ -182,7 +213,7 @@ namespace UnityStandardAssets.Utility
                         Gizmos.DrawLine(prev, next);
                         prev = next;
                     }
-                    Gizmos.DrawLine(prev, Waypoints[0].position);
+                    //Gizmos.DrawLine(prev, Waypoints[0].position);
                 }
                 else
                 {

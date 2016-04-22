@@ -31,6 +31,17 @@ namespace UnityStandardAssets.Utility
         [SerializeField] private float pointToPointThreshold = 4;
         // proximity to waypoint which must be reached to switch target to next waypoint : only used in PointToPoint mode.
 
+        /// Extras
+        [SerializeField]
+        private Vector3 initialPos;
+        [SerializeField]
+        private bool once;
+        [SerializeField]
+        private bool finished;
+        [SerializeField]
+        private float accuracy;
+        /// Extras
+
         public enum ProgressStyle
         {
             SmoothAlongRoute,
@@ -72,6 +83,8 @@ namespace UnityStandardAssets.Utility
         {
             progressDistance = 0;
             progressNum = 0;
+            initialPos = circuit.Waypoints[progressNum].position;
+            finished = false;
             if (progressStyle == ProgressStyle.PointToPoint)
             {
                 target.position = circuit.Waypoints[progressNum].position;
@@ -82,58 +95,66 @@ namespace UnityStandardAssets.Utility
 
         private void Update()
         {
-            if (progressStyle == ProgressStyle.SmoothAlongRoute)
+            if(!finished)
             {
-                // determine the position we should currently be aiming for
-                // (this is different to the current progress position, it is a a certain amount ahead along the route)
-                // we use lerp as a simple way of smoothing out the speed over time.
-                if (Time.deltaTime > 0)
+                if (progressStyle == ProgressStyle.SmoothAlongRoute)
                 {
-                    speed = Mathf.Lerp(speed, (lastPosition - transform.position).magnitude/Time.deltaTime,
-                                       Time.deltaTime);
+                    // determine the position we should currently be aiming for
+                    // (this is different to the current progress position, it is a a certain amount ahead along the route)
+                    // we use lerp as a simple way of smoothing out the speed over time.
+                    if (Time.deltaTime > 0)
+                    {
+                        speed = Mathf.Lerp(speed, (lastPosition - transform.position).magnitude / Time.deltaTime,
+                                           Time.deltaTime);
+                    }
+                    target.position =
+                        circuit.GetRoutePoint(progressDistance + lookAheadForTargetOffset + lookAheadForTargetFactor * speed)
+                               .position;
+                    target.rotation =
+                        Quaternion.LookRotation(
+                            circuit.GetRoutePoint(progressDistance + lookAheadForSpeedOffset + lookAheadForSpeedFactor * speed)
+                                   .direction);
+
+
+                    // get our current progress along the route
+                    progressPoint = circuit.GetRoutePoint(progressDistance);
+                    Vector3 progressDelta = progressPoint.position - transform.position;
+                    if (Vector3.Dot(progressDelta, progressPoint.direction) < 0)
+                    {
+                        progressDistance += progressDelta.magnitude * 0.5f;
+                    }
+
+                    lastPosition = transform.position;
+                    if((lastPosition - initialPos).magnitude <= accuracy && once)
+                    {
+                        finished = true;
+                    }
                 }
-                target.position =
-                    circuit.GetRoutePoint(progressDistance + lookAheadForTargetOffset + lookAheadForTargetFactor*speed)
-                           .position;
-                target.rotation =
-                    Quaternion.LookRotation(
-                        circuit.GetRoutePoint(progressDistance + lookAheadForSpeedOffset + lookAheadForSpeedFactor*speed)
-                               .direction);
-
-
-                // get our current progress along the route
-                progressPoint = circuit.GetRoutePoint(progressDistance);
-                Vector3 progressDelta = progressPoint.position - transform.position;
-                if (Vector3.Dot(progressDelta, progressPoint.direction) < 0)
+                else
                 {
-                    progressDistance += progressDelta.magnitude*0.5f;
-                }
+                    // point to point mode. Just increase the waypoint if we're close enough:
 
-                lastPosition = transform.position;
+                    Vector3 targetDelta = target.position - transform.position;
+                    if (targetDelta.magnitude < pointToPointThreshold)
+                    {
+                        progressNum = (progressNum + 1) % circuit.Waypoints.Length;
+                    }
+
+
+                    target.position = circuit.Waypoints[progressNum].position;
+                    target.rotation = circuit.Waypoints[progressNum].rotation;
+
+                    // get our current progress along the route
+                    progressPoint = circuit.GetRoutePoint(progressDistance);
+                    Vector3 progressDelta = progressPoint.position - transform.position;
+                    if (Vector3.Dot(progressDelta, progressPoint.direction) < 0)
+                    {
+                        progressDistance += progressDelta.magnitude;
+                    }
+                    lastPosition = transform.position;
+                }
             }
-            else
-            {
-                // point to point mode. Just increase the waypoint if we're close enough:
-
-                Vector3 targetDelta = target.position - transform.position;
-                if (targetDelta.magnitude < pointToPointThreshold)
-                {
-                    progressNum = (progressNum + 1)%circuit.Waypoints.Length;
-                }
-
-
-                target.position = circuit.Waypoints[progressNum].position;
-                target.rotation = circuit.Waypoints[progressNum].rotation;
-
-                // get our current progress along the route
-                progressPoint = circuit.GetRoutePoint(progressDistance);
-                Vector3 progressDelta = progressPoint.position - transform.position;
-                if (Vector3.Dot(progressDelta, progressPoint.direction) < 0)
-                {
-                    progressDistance += progressDelta.magnitude;
-                }
-                lastPosition = transform.position;
-            }
+            
         }
 
 

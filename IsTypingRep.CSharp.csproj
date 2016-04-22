@@ -75,6 +75,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\MoveAlong.cs" />
     <Compile Include="Assets\OVR\Moonlight\Scripts\OVRDebugHeadController.cs" />
     <Compile Include="Assets\OVR\Moonlight\Scripts\OVROverlay.cs" />
     <Compile Include="Assets\OVR\Moonlight\Scripts\OVRPlatformMenu.cs" />
@@ -100,6 +101,7 @@
     <Compile Include="Assets\OVR\Scripts\Util\OVRSceneSampleController.cs" />
     <Compile Include="Assets\OVR\Scripts\Util\OVRScreenFade.cs" />
     <Compile Include="Assets\OVR\Scripts\Util\OVRTrackerBounds.cs" />
+    <Compile Include="Assets\SetDelay.cs" />
     <Compile Include="Assets\scripts\AppCont.cs" />
     <Compile Include="Assets\scripts\BasicMovement.cs" />
     <Compile Include="Assets\scripts\SetObjProportions.cs" />

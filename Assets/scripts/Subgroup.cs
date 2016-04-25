@@ -7,8 +7,12 @@ public class Subgroup : MonoBehaviour,IEnable {
     private float fisrtChildHeight = 1;
     [SerializeField]
     private float nextChildOffset = 0.2f;
+    public float NextChildOffset { get { return nextChildOffset; } }
     [SerializeField]
     private Vector3 direction;
+    [SerializeField]
+    private Vector3 offset = Vector3.zero;
+    public Vector3 Direction { get { return direction; } }
     public void Enable(object data)
     {
         this.enabled = true;
@@ -23,12 +27,12 @@ public class Subgroup : MonoBehaviour,IEnable {
         Transform self = transform;
         int childCount = self.childCount;
         Transform parent = self.parent;
-        Vector3 currPos = self.localPosition + normDirection * nextChildOffset * ((int)(childCount/2));
+        Vector3 currPos = offset + normDirection * nextChildOffset * ((int)(childCount/2));
         for (int i = 0; i < childCount; i++)
         {
             Transform child = self.GetChild(0);
             child.SetParent(parent);
-            child.GetComponent<ChildPosition>().desiredPos = child.localPosition + currPos;
+            child.GetComponent<ChildPosition>().desiredPos = currPos;
             child.gameObject.SetActive(true);
             currPos -= normDirection * nextChildOffset;
         }

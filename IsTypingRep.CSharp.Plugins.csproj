@@ -129,6 +129,16 @@
     <Compile Include="Assets\Plugins\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
     <Compile Include="Assets\Plugins\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
     <Compile Include="Assets\Plugins\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
+    <Compile Include="Assets\Plugins\Standard Assets\ParticleSystems\Scripts\AfterburnerPhysicsForce.cs" />
+    <Compile Include="Assets\Plugins\Standard Assets\ParticleSystems\Scripts\ExplosionFireAndDebris.cs" />
+    <Compile Include="Assets\Plugins\Standard Assets\ParticleSystems\Scripts\ExplosionPhysicsForce.cs" />
+    <Compile Include="Assets\Plugins\Standard Assets\ParticleSystems\Scripts\Explosive.cs" />
+    <Compile Include="Assets\Plugins\Standard Assets\ParticleSystems\Scripts\ExtinguishableParticleSystem.cs" />
+    <Compile Include="Assets\Plugins\Standard Assets\ParticleSystems\Scripts\FireLight.cs" />
+    <Compile Include="Assets\Plugins\Standard Assets\ParticleSystems\Scripts\Hose.cs" />
+    <Compile Include="Assets\Plugins\Standard Assets\ParticleSystems\Scripts\ParticleSystemMultiplier.cs" />
+    <Compile Include="Assets\Plugins\Standard Assets\ParticleSystems\Scripts\SmokeParticles.cs" />
+    <Compile Include="Assets\Plugins\Standard Assets\ParticleSystems\Scripts\WaterHoseParticles.cs" />
     <Compile Include="Assets\Plugins\Standard Assets\Utility\ActivateTrigger.cs" />
     <Compile Include="Assets\Plugins\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
     <Compile Include="Assets\Plugins\Standard Assets\Utility\AutoMoveAndRotate.cs" />
@@ -284,6 +294,10 @@
     <None Include="Assets\Plugins\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
     <None Include="Assets\Plugins\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
     <None Include="Assets\Plugins\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+    <None Include="Assets\Plugins\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+    <None Include="Assets\Plugins\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+    <None Include="Assets\Plugins\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+    <None Include="Assets\Plugins\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

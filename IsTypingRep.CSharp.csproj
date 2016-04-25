@@ -100,10 +100,12 @@
     <Compile Include="Assets\OVR\Scripts\Util\OVRSceneSampleController.cs" />
     <Compile Include="Assets\OVR\Scripts\Util\OVRScreenFade.cs" />
     <Compile Include="Assets\OVR\Scripts\Util\OVRTrackerBounds.cs" />
+    <Compile Include="Assets\Sample assets\Createetters.cs" />
     <Compile Include="Assets\scripts\AddYou.cs" />
     <Compile Include="Assets\scripts\AppCont.cs" />
     <Compile Include="Assets\scripts\BasicMovement.cs" />
     <Compile Include="Assets\scripts\ChildPosition.cs" />
+    <Compile Include="Assets\scripts\DisableSelf.cs" />
     <Compile Include="Assets\scripts\GroupsRandomBehavior.cs" />
     <Compile Include="Assets\scripts\MoveAlong.cs" />
     <Compile Include="Assets\scripts\NewBehaviourScript.cs" />
@@ -111,6 +113,7 @@
     <Compile Include="Assets\scripts\SetDelay.cs" />
     <Compile Include="Assets\scripts\SetObjProportions.cs" />
     <Compile Include="Assets\scripts\Subgroup.cs" />
+    <Compile Include="Assets\scripts\TestTextChange.cs" />
     <Compile Include="Assets\scripts\TimedGroupActivation.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -244,6 +247,10 @@
     <None Include="Assets\Plugins\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
     <None Include="Assets\Plugins\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
     <None Include="Assets\Plugins\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+    <None Include="Assets\Plugins\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+    <None Include="Assets\Plugins\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+    <None Include="Assets\Plugins\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+    <None Include="Assets\Plugins\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

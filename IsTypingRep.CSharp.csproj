@@ -105,13 +105,16 @@
     <Compile Include="Assets\scripts\AppCont.cs" />
     <Compile Include="Assets\scripts\BasicMovement.cs" />
     <Compile Include="Assets\scripts\ChildPosition.cs" />
+    <Compile Include="Assets\scripts\De_ActivateScene.cs" />
     <Compile Include="Assets\scripts\DisableSelf.cs" />
     <Compile Include="Assets\scripts\GroupsRandomBehavior.cs" />
+    <Compile Include="Assets\scripts\Image1Control.cs" />
     <Compile Include="Assets\scripts\MoveAlong.cs" />
     <Compile Include="Assets\scripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\scripts\PositionGroups.cs" />
     <Compile Include="Assets\scripts\SetDelay.cs" />
     <Compile Include="Assets\scripts\SetObjProportions.cs" />
+    <Compile Include="Assets\scripts\StartAnimation.cs" />
     <Compile Include="Assets\scripts\Subgroup.cs" />
     <Compile Include="Assets\scripts\TestTextChange.cs" />
     <Compile Include="Assets\scripts\TimedGroupActivation.cs" />

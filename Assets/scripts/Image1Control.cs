@@ -15,7 +15,7 @@ public class Image1Control : MonoBehaviour {
     public action[] actions;
 	// Update is called once per frame
 	void Update () {
-        if(Input.GetButton("Submit"))
+        if(Input.GetMouseButtonDown(0))
         {
             Debug.Log("Presentation started");
             for(int i = 0;i<actions.Length;i++)

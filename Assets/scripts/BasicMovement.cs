@@ -4,7 +4,7 @@ using System;
 
 public class BasicMovement : MonoBehaviour {
 
-    enum MovementMode { LOOK, FORWARD}
+    enum MovementMode { LOOK, FORWARD,STRAIGHT_FALL,SPIRAL_FALL}
     // Use this for initialization
     void Start () {
         self = transform;
@@ -50,8 +50,24 @@ public class BasicMovement : MonoBehaviour {
             case MovementMode.FORWARD:
                 MoveForward();
                 break;
+            case MovementMode.SPIRAL_FALL:
+                FallSpirally();
+                break;
+            case MovementMode.STRAIGHT_FALL:
+                Fall();
+                break;
         }
 	}
+
+    private void Fall()
+    {
+        self.position += Vector3.down * speed * Time.deltaTime;
+    }
+
+    private void FallSpirally()
+    {
+        throw new NotImplementedException();
+    }
 
     private void MoveForward()
     {

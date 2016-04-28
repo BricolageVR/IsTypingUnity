@@ -5,7 +5,6 @@ public class CameraFocus : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        cam = Camera.main;
 	}
 	
 	// Update is called once per frame
@@ -13,15 +12,18 @@ public class CameraFocus : MonoBehaviour {
         RaycastHit info;
         if(Physics.Raycast(transform.position, transform.forward, out info))
         {
-            Debug.Log(info.transform.parent.name);
-            PopMessage m = info.transform.parent.GetComponent<PopMessage>();
-            if( m != null)
+            Transform parent = info.transform.parent;
+            if(parent != null)
             {
-                m.inCameraFocus();
+                Debug.Log(parent.name);
+                PopMessage m = parent.GetComponent<PopMessage>();
+                if (m != null)
+                {
+                    m.inCameraFocus();
+                }
             }
         }
     }
-    Camera cam;
     void OnDrawGizmosSelected()
     {
             Gizmos.color = Color.blue;

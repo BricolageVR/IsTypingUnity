@@ -4,10 +4,11 @@ using System.Collections;
 public class SetDelay : MonoBehaviour {
 
 	// Use this for initialization
-	void Awake () {
+	void Start () {
         script.enabled = false;
         StartCoroutine("startScripts");
 	}
+
     public MonoBehaviour script;
     public float delaySeconds;
 	// Update is called once per frame

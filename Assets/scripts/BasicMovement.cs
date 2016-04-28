@@ -1,15 +1,27 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System;
+public enum MovementMode { LOOK, FORWARD, STRAIGHT_FALL, SPIRAL_FALL }
 
-public class BasicMovement : MonoBehaviour {
+public class BasicMovement : MonoBehaviour{
 
-    enum MovementMode { LOOK, FORWARD,STRAIGHT_FALL,SPIRAL_FALL}
     // Use this for initialization
     void Start () {
         self = transform;
-        camera = Camera.main;
-        moveDirection = self.InverseTransformDirection(camera.transform.forward);
+        myCamera = Camera.main;
+        switch(movementMode)
+        {
+            case MovementMode.LOOK:
+            case MovementMode.FORWARD:
+                moveDirection = self.InverseTransformDirection(myCamera.transform.forward);
+                break;
+            case MovementMode.SPIRAL_FALL:
+                moveDirection = new Vector3(radius * Mathf.Sin(Time.time), -1 * speed, radius * Mathf.Cos(Time.time));
+                break;
+            case MovementMode.STRAIGHT_FALL:
+                moveDirection = Vector3.down * speed;
+                break;
+        }
         moveDirection.Normalize();
     }
     ///Transfrom caching
@@ -19,7 +31,7 @@ public class BasicMovement : MonoBehaviour {
     ///The camera reference. used to get the move direction in camera movement related modes movement mode 
     /// </summary>
     [SerializeField]
-    private Camera camera;
+    private Camera myCamera;
 
     /// <summary>
     ///  The movement speed, usually describes the forward(or in general the active move direction)
@@ -40,8 +52,36 @@ public class BasicMovement : MonoBehaviour {
     [SerializeField]
     private MovementMode movementMode;
 
-	// Update is called once per frame
-	void Update () {
+    public MovementMode mode
+    {
+        set {
+            movementMode = value;
+            switch (movementMode)
+            {
+                case MovementMode.LOOK:
+                case MovementMode.FORWARD:
+                    moveDirection = self.InverseTransformDirection(myCamera.transform.forward);
+                    break;
+                case MovementMode.SPIRAL_FALL:
+                    moveDirection = new Vector3(radius * Mathf.Sin(Time.time), -1 * speed, radius * Mathf.Cos(Time.time));
+                    break;
+                case MovementMode.STRAIGHT_FALL:
+                    moveDirection = Vector3.down * speed;
+                    break;
+            }
+            moveDirection.Normalize();
+        }
+        get { return movementMode; }
+    }
+
+    /// <summary>
+    /// Defines the radius of the spiral fall movement
+    /// </summary>
+    [SerializeField]
+    private float radius;
+
+    // Update is called once per frame
+    void Update () {
         switch (movementMode)
         {
             case MovementMode.LOOK:
@@ -61,12 +101,13 @@ public class BasicMovement : MonoBehaviour {
 
     private void Fall()
     {
-        self.position += Vector3.down * speed * Time.deltaTime;
+        self.position += moveDirection * speed * Time.deltaTime;
     }
 
     private void FallSpirally()
     {
-        throw new NotImplementedException();
+        self.position += moveDirection * speed * Time.deltaTime;
+        moveDirection = new Vector3(radius * Mathf.Sin(Time.time), -1 * speed, radius * Mathf.Cos(Time.time)).normalized;
     }
 
     private void MoveForward()
@@ -78,4 +119,10 @@ public class BasicMovement : MonoBehaviour {
     {
         self.Translate(Vector3.forward*speed*Time.deltaTime);
     }
+    void DisableAnimations()
+    {//Disables the animator component and starts the move
+        this.enabled = true;
+        GetComponent<Animator>().enabled = false;
+    }
+
 }

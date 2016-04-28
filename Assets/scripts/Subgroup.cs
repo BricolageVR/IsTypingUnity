@@ -4,8 +4,6 @@ using System.Collections;
 public class Subgroup : MonoBehaviour,IEnable {
 
     [SerializeField]
-    private float fisrtChildHeight = 1;
-    [SerializeField]
     private float nextChildOffset = 0.2f;
     public float NextChildOffset { get { return nextChildOffset; } }
     [SerializeField]

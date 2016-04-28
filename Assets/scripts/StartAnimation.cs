@@ -15,8 +15,12 @@ public class StartAnimation : MonoBehaviour, IEnable {
     {
         this.enabled = true;
     }
-	// Update is called once per frame
-	void Update () {
+    public void EnableMe()
+    {
+        this.enabled = true;
+    }
+    // Update is called once per frame
+    void Update () {
 	
 	}
 }

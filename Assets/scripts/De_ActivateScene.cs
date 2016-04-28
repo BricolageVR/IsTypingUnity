@@ -17,7 +17,9 @@ public class De_ActivateScene : MonoBehaviour {
 
     void OnTriggerEnter()
     {
-        sceneActivate.SetActive(true);
-        sceneDeActivate.SetActive(false);
+        if(sceneActivate != null)
+            sceneActivate.SetActive(true);
+        if(sceneDeActivate != null)
+            sceneDeActivate.SetActive(false);
     }
 }

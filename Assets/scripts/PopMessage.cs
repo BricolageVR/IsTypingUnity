@@ -24,9 +24,9 @@ public class PopMessage : MonoBehaviour {
         if(!once)
         {
             //Play destruction animation
-            GetComponent<Animator>().SetBool("focused", true);
-            Instantiate(messagePopUp, transform.position + offset, transform.rotation);
-            once = true;
+            //GetComponent<Animator>().SetBool("focused", true);
+            //Instantiate(messagePopUp, transform.position + offset, transform.rotation);
+            //once = true;
             //the popup message object should destroy itself 
             //the destruction of the current message should be called from the animation interface
         }

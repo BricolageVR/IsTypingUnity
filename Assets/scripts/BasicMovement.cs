@@ -39,7 +39,9 @@ public class BasicMovement : MonoBehaviour{
     /// </summary>
     [SerializeField]
     private float speed;
-   
+
+    public float Speed { get { return speed; } set { speed = value; } }
+    public static float GeneralSpeed = 3.5f;
     /// <summary>
     /// DEscribes the active moving direction.
     /// </summary>

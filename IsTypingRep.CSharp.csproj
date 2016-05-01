@@ -115,12 +115,13 @@
     <Compile Include="Assets\scripts\Image2Controller.cs" />
     <Compile Include="Assets\scripts\MoveAlong.cs" />
     <Compile Include="Assets\scripts\MoveCameraImage2.cs" />
-    <Compile Include="Assets\scripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\scripts\PopMessage.cs" />
     <Compile Include="Assets\scripts\PositionGroups.cs" />
+    <Compile Include="Assets\scripts\RepositionToLook.cs" />
     <Compile Include="Assets\scripts\SetDelay.cs" />
     <Compile Include="Assets\scripts\SetObjProportions.cs" />
     <Compile Include="Assets\scripts\SetParent.cs" />
+    <Compile Include="Assets\scripts\SpeedByDistance.cs" />
     <Compile Include="Assets\scripts\StartAnimation.cs" />
     <Compile Include="Assets\scripts\StartOtherMessage.cs" />
     <Compile Include="Assets\scripts\Subgroup.cs" />

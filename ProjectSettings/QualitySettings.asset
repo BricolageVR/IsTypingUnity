@@ -4,7 +4,7 @@
 QualitySettings:
   m_ObjectHideFlags: 0
   serializedVersion: 5
-  m_CurrentQuality: 3
+  m_CurrentQuality: 5
   m_QualitySettings:
   - serializedVersion: 2
     name: Fastest
@@ -20,7 +20,7 @@ QualitySettings:
     blendWeights: 1
     textureQuality: 1
     anisotropicTextures: 0
-    antiAliasing: 0
+    antiAliasing: 8
     softParticles: 0
     softVegetation: 0
     realtimeReflectionProbes: 0
@@ -150,12 +150,12 @@ QualitySettings:
     blendWeights: 4
     textureQuality: 0
     anisotropicTextures: 2
-    antiAliasing: 0
+    antiAliasing: 8
     softParticles: 1
     softVegetation: 1
     realtimeReflectionProbes: 1
     billboardsFaceCameraPosition: 1
-    vSyncCount: 1
+    vSyncCount: 0
     lodBias: 2
     maximumLODLevel: 0
     particleRaycastBudget: 4096
@@ -163,7 +163,7 @@ QualitySettings:
     asyncUploadBufferSize: 4
     excludedTargetPlatforms: []
   m_PerPlatformDefaultQuality:
-    Android: 3
+    Android: 5
     BlackBerry: 2
     GLES Emulation: 5
     Nintendo 3DS: 5
@@ -172,10 +172,10 @@ QualitySettings:
     PSM: 5
     PSP2: 2
     Samsung TV: 2
-    Standalone: 3
+    Standalone: 5
     Tizen: 2
     WP8: 5
-    Web: 3
+    Web: 5
     WebGL: 3
     WiiU: 5
     Windows Store Apps: 5

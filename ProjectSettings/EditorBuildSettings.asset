@@ -15,3 +15,7 @@ EditorBuildSettings:
     path: Assets/Image6.unity
   - enabled: 0
     path: Assets/Scenes/Image5.unity
+  - enabled: 0
+    path: Assets/Gra.unity
+  - enabled: 0
+    path: Assets/Last.unity

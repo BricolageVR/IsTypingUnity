@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System;
-public enum MovementMode { LOOK, FORWARD, STRAIGHT_FALL, SPIRAL_FALL }
+public enum MovementMode { LOOK, FORWARD, STRAIGHT_FALL, SPIRAL_FALL,GO_UP }
 
 public class BasicMovement : MonoBehaviour{
 
@@ -20,6 +20,9 @@ public class BasicMovement : MonoBehaviour{
                 break;
             case MovementMode.STRAIGHT_FALL:
                 moveDirection = Vector3.down * speed;
+                break;
+            case MovementMode.GO_UP:
+                moveDirection = Vector3.up * speed;
                 break;
         }
         moveDirection.Normalize();
@@ -70,6 +73,9 @@ public class BasicMovement : MonoBehaviour{
                 case MovementMode.STRAIGHT_FALL:
                     moveDirection = Vector3.down * speed;
                     break;
+                case MovementMode.GO_UP:
+                    moveDirection = Vector3.up * speed;
+                    break;
             }
             moveDirection.Normalize();
         }
@@ -98,8 +104,16 @@ public class BasicMovement : MonoBehaviour{
             case MovementMode.STRAIGHT_FALL:
                 Fall();
                 break;
+            case MovementMode.GO_UP:
+                GoUp();
+                break;
         }
 	}
+
+    private void GoUp()
+    {
+        self.position += moveDirection * speed * Time.deltaTime;
+    }
 
     private void Fall()
     {

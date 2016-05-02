@@ -67,6 +67,9 @@
     <Reference Include="Fluvio.Runtime">
       <HintPath>Assets\Plugins\Fluvio\_Main\Fluvio.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="ArabicSupport">
+      <HintPath>Assets\ArabicSupport\Plugins\ArabicSupport.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Plugins\Fluvio Shared\VersionSpecific\Common\ImageEffects\Scripts\Antialiasing.cs" />

@@ -61,14 +61,17 @@
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
+    <Reference Include="ArabicSupport">
+      <HintPath>Assets\ArabicSupport\Plugins\ArabicSupport.dll</HintPath>
+    </Reference>
     <Reference Include="Cloo">
       <HintPath>Assets\Plugins\Fluvio\_Main\Cloo.dll</HintPath>
     </Reference>
     <Reference Include="Fluvio.Runtime">
       <HintPath>Assets\Plugins\Fluvio\_Main\Fluvio.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="ArabicSupport">
-      <HintPath>Assets\ArabicSupport\Plugins\ArabicSupport.dll</HintPath>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>Assets\Plugins\ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -83,6 +86,7 @@
     <Compile Include="Assets\Plugins\Fluvio\_Main\PlatformSource\Thinksquirrel\Fluvio\Internal\Threading\FluvioThreadPool.cs" />
     <Compile Include="Assets\Plugins\Fluvio\_Main\PlatformSource\Thinksquirrel\Fluvio\SamplePlugins\FluidMixer.cs" />
     <Compile Include="Assets\Plugins\Fluvio\_Main\PlatformSource\Thinksquirrel\Fluvio\SamplePlugins\FluidTouch.cs" />
+    <Compile Include="Assets\Plugins\SimpleJSON.cs" />
     <Compile Include="Assets\Plugins\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
     <Compile Include="Assets\Plugins\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
     <Compile Include="Assets\Plugins\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />

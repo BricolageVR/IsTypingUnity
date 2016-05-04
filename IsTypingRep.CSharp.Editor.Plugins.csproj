@@ -91,6 +91,9 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>Library\UnityAssemblies\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="ArabicSupport">
+      <HintPath>Assets\ArabicSupport\Plugins\ArabicSupport.dll</HintPath>
+    </Reference>
     <Reference Include="Fluvio.Editor">
       <HintPath>Assets\Plugins\Fluvio\Editor\Fluvio.Editor.dll</HintPath>
     </Reference>
@@ -103,8 +106,8 @@
     <Reference Include="Fluvio.Runtime">
       <HintPath>Assets\Plugins\Fluvio\_Main\Fluvio.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="ArabicSupport">
-      <HintPath>Assets\ArabicSupport\Plugins\ArabicSupport.dll</HintPath>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>Assets\Plugins\ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-UnityScript">
       <HintPath>Library\ScriptAssemblies\Assembly-UnityScript.dll</HintPath>

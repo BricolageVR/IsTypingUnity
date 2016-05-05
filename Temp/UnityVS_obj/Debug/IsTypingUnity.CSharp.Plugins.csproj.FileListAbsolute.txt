@@ -1,0 +1,17 @@
+C:\Users\Asaf\Documents\IsTypingUnity\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Asaf\Documents\IsTypingUnity\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Asaf\Documents\IsTypingUnity\Temp\UnityVS_bin\Debug\ArabicSupport.dll
+C:\Users\Asaf\Documents\IsTypingUnity\Temp\UnityVS_bin\Debug\Cloo.dll
+C:\Users\Asaf\Documents\IsTypingUnity\Temp\UnityVS_bin\Debug\Fluvio.Runtime.dll
+C:\Users\Asaf\Documents\IsTypingUnity\Temp\UnityVS_bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Asaf\Documents\IsTypingUnity\Temp\UnityVS_bin\Debug\UnityEditor.dll
+C:\Users\Asaf\Documents\IsTypingUnity\Temp\UnityVS_bin\Debug\UnityEngine.dll
+C:\Users\Asaf\Documents\IsTypingUnity\Temp\UnityVS_bin\Debug\UnityEngine.Networking.dll
+C:\Users\Asaf\Documents\IsTypingUnity\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+C:\Users\Asaf\Documents\IsTypingUnity\Temp\UnityVS_bin\Debug\UnityEngine.xml
+C:\Users\Asaf\Documents\IsTypingUnity\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+C:\Users\Asaf\Documents\IsTypingUnity\Temp\UnityVS_bin\Debug\UnityEngine.Networking.xml
+C:\Users\Asaf\Documents\IsTypingUnity\Temp\UnityVS_bin\Debug\UnityEditor.xml
+C:\Users\Asaf\Documents\IsTypingUnity\Temp\UnityVS_bin\Debug\Fluvio.Runtime.xml
+C:\Users\Asaf\Documents\IsTypingUnity\Temp\UnityVS_obj\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Asaf\Documents\IsTypingUnity\Temp\UnityVS_obj\Debug\Assembly-CSharp-firstpass.pdb

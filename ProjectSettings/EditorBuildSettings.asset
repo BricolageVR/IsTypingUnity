@@ -19,3 +19,7 @@ EditorBuildSettings:
     path: Assets/Gra.unity
   - enabled: 0
     path: Assets/Last.unity
+  - enabled: 0
+    path: Assets/World1-2.unity
+  - enabled: 0
+    path: Assets/World3.unity

@@ -1,0 +1,634 @@
+fileFormatVersion: 2
+guid: b77feff3f7263ee47a6378826242af9e
+timeCreated: 1462380821
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BU
+    100002: Cap_1
+    100004: Cap_1_10
+    100006: Cap_1_11
+    100008: Cap_1_12
+    100010: Cap_1_13
+    100012: Cap_1_14
+    100014: Cap_1_15
+    100016: Cap_1_16
+    100018: Cap_1_17
+    100020: Cap_1_18
+    100022: Cap_1_19
+    100024: Cap_1_2
+    100026: Cap_1_20
+    100028: Cap_1_21
+    100030: Cap_1_22
+    100032: Cap_1_3
+    100034: Cap_1_4
+    100036: Cap_1_5
+    100038: Cap_1_6
+    100040: Cap_1_7
+    100042: Cap_1_8
+    100044: Cap_1_9
+    100046: Cap_2
+    100048: Cap_2_10
+    100050: Cap_2_11
+    100052: Cap_2_12
+    100054: Cap_2_13
+    100056: Cap_2_14
+    100058: Cap_2_15
+    100060: Cap_2_16
+    100062: Cap_2_17
+    100064: Cap_2_18
+    100066: Cap_2_19
+    100068: Cap_2_2
+    100070: Cap_2_20
+    100072: Cap_2_21
+    100074: Cap_2_22
+    100076: Cap_2_3
+    100078: Cap_2_4
+    100080: Cap_2_5
+    100082: Cap_2_6
+    100084: Cap_2_7
+    100086: Cap_2_8
+    100088: Cap_2_9
+    100090: CINEMA_4D_Editor
+    100092: in
+    100094: in_10
+    100096: in_11
+    100098: in_2
+    100100: in_3
+    100102: in_4
+    100104: in_5
+    100106: in_6
+    100108: in_7
+    100110: in_8
+    100112: in_9
+    100114: Null
+    100116: out
+    100118: out_10
+    100120: out_11
+    100122: out_2
+    100124: out_3
+    100126: out_4
+    100128: out_5
+    100130: out_6
+    100132: out_7
+    100134: out_8
+    100136: out_9
+    100138: Scene
+    100140: Small_star_01
+    100142: Small_star_01_1
+    100144: Small_star_01_1_2
+    100146: Small_star_01_2
+    100148: Small_Star_02
+    100150: Small_Star_02_1
+    100152: Small_Star_02_2
+    100154: Small_star_03
+    100156: Small_star_03_1
+    100158: Small_star_03_2
+    100160: Star_big
+    100162: Star_big_2
+    100164: //RootNode
+    400000: BU
+    400002: Cap_1
+    400004: Cap_1_10
+    400006: Cap_1_11
+    400008: Cap_1_12
+    400010: Cap_1_13
+    400012: Cap_1_14
+    400014: Cap_1_15
+    400016: Cap_1_16
+    400018: Cap_1_17
+    400020: Cap_1_18
+    400022: Cap_1_19
+    400024: Cap_1_2
+    400026: Cap_1_20
+    400028: Cap_1_21
+    400030: Cap_1_22
+    400032: Cap_1_3
+    400034: Cap_1_4
+    400036: Cap_1_5
+    400038: Cap_1_6
+    400040: Cap_1_7
+    400042: Cap_1_8
+    400044: Cap_1_9
+    400046: Cap_2
+    400048: Cap_2_10
+    400050: Cap_2_11
+    400052: Cap_2_12
+    400054: Cap_2_13
+    400056: Cap_2_14
+    400058: Cap_2_15
+    400060: Cap_2_16
+    400062: Cap_2_17
+    400064: Cap_2_18
+    400066: Cap_2_19
+    400068: Cap_2_2
+    400070: Cap_2_20
+    400072: Cap_2_21
+    400074: Cap_2_22
+    400076: Cap_2_3
+    400078: Cap_2_4
+    400080: Cap_2_5
+    400082: Cap_2_6
+    400084: Cap_2_7
+    400086: Cap_2_8
+    400088: Cap_2_9
+    400090: CINEMA_4D_Editor
+    400092: in
+    400094: in_10
+    400096: in_11
+    400098: in_2
+    400100: in_3
+    400102: in_4
+    400104: in_5
+    400106: in_6
+    400108: in_7
+    400110: in_8
+    400112: in_9
+    400114: Null
+    400116: out
+    400118: out_10
+    400120: out_11
+    400122: out_2
+    400124: out_3
+    400126: out_4
+    400128: out_5
+    400130: out_6
+    400132: out_7
+    400134: out_8
+    400136: out_9
+    400138: Scene
+    400140: Small_star_01
+    400142: Small_star_01_1
+    400144: Small_star_01_1_2
+    400146: Small_star_01_2
+    400148: Small_Star_02
+    400150: Small_Star_02_1
+    400152: Small_Star_02_2
+    400154: Small_star_03
+    400156: Small_star_03_1
+    400158: Small_star_03_2
+    400160: Star_big
+    400162: Star_big_2
+    400164: //RootNode
+    2300000: Cap_1
+    2300002: Cap_1_10
+    2300004: Cap_1_11
+    2300006: Cap_1_12
+    2300008: Cap_1_13
+    2300010: Cap_1_14
+    2300012: Cap_1_15
+    2300014: Cap_1_16
+    2300016: Cap_1_17
+    2300018: Cap_1_18
+    2300020: Cap_1_19
+    2300022: Cap_1_2
+    2300024: Cap_1_20
+    2300026: Cap_1_21
+    2300028: Cap_1_22
+    2300030: Cap_1_3
+    2300032: Cap_1_4
+    2300034: Cap_1_5
+    2300036: Cap_1_6
+    2300038: Cap_1_7
+    2300040: Cap_1_8
+    2300042: Cap_1_9
+    2300044: Cap_2
+    2300046: Cap_2_10
+    2300048: Cap_2_11
+    2300050: Cap_2_12
+    2300052: Cap_2_13
+    2300054: Cap_2_14
+    2300056: Cap_2_15
+    2300058: Cap_2_16
+    2300060: Cap_2_17
+    2300062: Cap_2_18
+    2300064: Cap_2_19
+    2300066: Cap_2_2
+    2300068: Cap_2_20
+    2300070: Cap_2_21
+    2300072: Cap_2_22
+    2300074: Cap_2_3
+    2300076: Cap_2_4
+    2300078: Cap_2_5
+    2300080: Cap_2_6
+    2300082: Cap_2_7
+    2300084: Cap_2_8
+    2300086: Cap_2_9
+    2300088: in
+    2300090: in_10
+    2300092: in_11
+    2300094: in_2
+    2300096: in_3
+    2300098: in_4
+    2300100: in_5
+    2300102: in_6
+    2300104: in_7
+    2300106: in_8
+    2300108: in_9
+    2300110: out
+    2300112: out_10
+    2300114: out_11
+    2300116: out_2
+    2300118: out_3
+    2300120: out_4
+    2300122: out_5
+    2300124: out_6
+    2300126: out_7
+    2300128: out_8
+    2300130: out_9
+    2300132: Small_star_01_1_2
+    3300000: Cap_1
+    3300002: Cap_1_10
+    3300004: Cap_1_11
+    3300006: Cap_1_12
+    3300008: Cap_1_13
+    3300010: Cap_1_14
+    3300012: Cap_1_15
+    3300014: Cap_1_16
+    3300016: Cap_1_17
+    3300018: Cap_1_18
+    3300020: Cap_1_19
+    3300022: Cap_1_2
+    3300024: Cap_1_20
+    3300026: Cap_1_21
+    3300028: Cap_1_22
+    3300030: Cap_1_3
+    3300032: Cap_1_4
+    3300034: Cap_1_5
+    3300036: Cap_1_6
+    3300038: Cap_1_7
+    3300040: Cap_1_8
+    3300042: Cap_1_9
+    3300044: Cap_2
+    3300046: Cap_2_10
+    3300048: Cap_2_11
+    3300050: Cap_2_12
+    3300052: Cap_2_13
+    3300054: Cap_2_14
+    3300056: Cap_2_15
+    3300058: Cap_2_16
+    3300060: Cap_2_17
+    3300062: Cap_2_18
+    3300064: Cap_2_19
+    3300066: Cap_2_2
+    3300068: Cap_2_20
+    3300070: Cap_2_21
+    3300072: Cap_2_22
+    3300074: Cap_2_3
+    3300076: Cap_2_4
+    3300078: Cap_2_5
+    3300080: Cap_2_6
+    3300082: Cap_2_7
+    3300084: Cap_2_8
+    3300086: Cap_2_9
+    3300088: in
+    3300090: in_10
+    3300092: in_11
+    3300094: in_2
+    3300096: in_3
+    3300098: in_4
+    3300100: in_5
+    3300102: in_6
+    3300104: in_7
+    3300106: in_8
+    3300108: in_9
+    3300110: out
+    3300112: out_10
+    3300114: out_11
+    3300116: out_2
+    3300118: out_3
+    3300120: out_4
+    3300122: out_5
+    3300124: out_6
+    3300126: out_7
+    3300128: out_8
+    3300130: out_9
+    3300132: Small_star_01_1_2
+    4300000: out
+    4300002: Cap_1
+    4300004: Cap_2
+    4300006: in
+    4300008: Cap_1_2
+    4300010: Cap_2_2
+    4300012: out_2
+    4300014: Cap_1_3
+    4300016: Cap_2_3
+    4300018: in_2
+    4300020: Cap_1_4
+    4300022: Cap_2_4
+    4300024: out_3
+    4300026: Cap_1_5
+    4300028: Cap_2_5
+    4300030: in_3
+    4300032: Cap_1_6
+    4300034: Cap_2_6
+    4300036: out_4
+    4300038: Cap_1_7
+    4300040: Cap_2_7
+    4300042: in_4
+    4300044: Cap_1_8
+    4300046: Cap_2_8
+    4300048: out_5
+    4300050: Cap_1_9
+    4300052: Cap_2_9
+    4300054: in_5
+    4300056: Cap_1_10
+    4300058: Cap_2_10
+    4300060: out_6
+    4300062: Cap_1_11
+    4300064: Cap_2_11
+    4300066: in_6
+    4300068: Cap_1_12
+    4300070: Cap_2_12
+    4300072: out_7
+    4300074: Cap_1_13
+    4300076: Cap_2_13
+    4300078: in_7
+    4300080: Cap_1_14
+    4300082: Cap_2_14
+    4300084: out_8
+    4300086: Cap_1_15
+    4300088: Cap_2_15
+    4300090: in_8
+    4300092: Cap_1_16
+    4300094: Cap_2_16
+    4300096: out_9
+    4300098: Cap_1_17
+    4300100: Cap_2_17
+    4300102: in_9
+    4300104: Cap_1_18
+    4300106: Cap_2_18
+    4300108: out_10
+    4300110: Cap_1_19
+    4300112: Cap_2_19
+    4300114: in_10
+    4300116: Cap_1_20
+    4300118: Cap_2_20
+    4300120: out_11
+    4300122: Cap_1_21
+    4300124: Cap_2_21
+    4300126: in_11
+    4300128: Cap_1_22
+    4300130: Cap_2_22
+    4300132: Small_star_01_1_2
+    7400000: C4D Animation Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: C4D Animation Take
+      takeName: C4D Animation Take
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BU
+        weight: 1
+      - path: BU/Small_star_01_2
+        weight: 1
+      - path: BU/Small_star_01_2/in_9
+        weight: 1
+      - path: BU/Small_star_01_2/in_9/Cap_1_18
+        weight: 1
+      - path: BU/Small_star_01_2/in_9/Cap_2_18
+        weight: 1
+      - path: BU/Small_star_01_2/out_9
+        weight: 1
+      - path: BU/Small_star_01_2/out_9/Cap_1_17
+        weight: 1
+      - path: BU/Small_star_01_2/out_9/Cap_2_17
+        weight: 1
+      - path: BU/Small_Star_02_2
+        weight: 1
+      - path: BU/Small_Star_02_2/in_10
+        weight: 1
+      - path: BU/Small_Star_02_2/in_10/Cap_1_20
+        weight: 1
+      - path: BU/Small_Star_02_2/in_10/Cap_2_20
+        weight: 1
+      - path: BU/Small_Star_02_2/out_10
+        weight: 1
+      - path: BU/Small_Star_02_2/out_10/Cap_1_19
+        weight: 1
+      - path: BU/Small_Star_02_2/out_10/Cap_2_19
+        weight: 1
+      - path: BU/Small_star_03_2
+        weight: 1
+      - path: BU/Small_star_03_2/in_11
+        weight: 1
+      - path: BU/Small_star_03_2/in_11/Cap_1_22
+        weight: 1
+      - path: BU/Small_star_03_2/in_11/Cap_2_22
+        weight: 1
+      - path: BU/Small_star_03_2/out_11
+        weight: 1
+      - path: BU/Small_star_03_2/out_11/Cap_1_21
+        weight: 1
+      - path: BU/Small_star_03_2/out_11/Cap_2_21
+        weight: 1
+      - path: BU/Star_big_2
+        weight: 1
+      - path: BU/Star_big_2/in_8
+        weight: 1
+      - path: BU/Star_big_2/in_8/Cap_1_16
+        weight: 1
+      - path: BU/Star_big_2/in_8/Cap_2_16
+        weight: 1
+      - path: BU/Star_big_2/out_8
+        weight: 1
+      - path: BU/Star_big_2/out_8/Cap_1_15
+        weight: 1
+      - path: BU/Star_big_2/out_8/Cap_2_15
+        weight: 1
+      - path: CINEMA_4D_Editor
+        weight: 1
+      - path: Scene
+        weight: 1
+      - path: Scene/Null
+        weight: 1
+      - path: Scene/Null/Small_star_01
+        weight: 1
+      - path: Scene/Null/Small_star_01/in_2
+        weight: 1
+      - path: Scene/Null/Small_star_01/in_2/Cap_1_4
+        weight: 1
+      - path: Scene/Null/Small_star_01/in_2/Cap_2_4
+        weight: 1
+      - path: Scene/Null/Small_star_01/out_2
+        weight: 1
+      - path: Scene/Null/Small_star_01/out_2/Cap_1_3
+        weight: 1
+      - path: Scene/Null/Small_star_01/out_2/Cap_2_3
+        weight: 1
+      - path: Scene/Null/Small_star_01_1
+        weight: 1
+      - path: Scene/Null/Small_star_01_1/in_3
+        weight: 1
+      - path: Scene/Null/Small_star_01_1/in_3/Cap_1_6
+        weight: 1
+      - path: Scene/Null/Small_star_01_1/in_3/Cap_2_6
+        weight: 1
+      - path: Scene/Null/Small_star_01_1/out_3
+        weight: 1
+      - path: Scene/Null/Small_star_01_1/out_3/Cap_1_5
+        weight: 1
+      - path: Scene/Null/Small_star_01_1/out_3/Cap_2_5
+        weight: 1
+      - path: Scene/Null/Small_Star_02
+        weight: 1
+      - path: Scene/Null/Small_Star_02/in_4
+        weight: 1
+      - path: Scene/Null/Small_Star_02/in_4/Cap_1_8
+        weight: 1
+      - path: Scene/Null/Small_Star_02/in_4/Cap_2_8
+        weight: 1
+      - path: Scene/Null/Small_Star_02/out_4
+        weight: 1
+      - path: Scene/Null/Small_Star_02/out_4/Cap_1_7
+        weight: 1
+      - path: Scene/Null/Small_Star_02/out_4/Cap_2_7
+        weight: 1
+      - path: Scene/Null/Small_Star_02_1
+        weight: 1
+      - path: Scene/Null/Small_Star_02_1/in_5
+        weight: 1
+      - path: Scene/Null/Small_Star_02_1/in_5/Cap_1_10
+        weight: 1
+      - path: Scene/Null/Small_Star_02_1/in_5/Cap_2_10
+        weight: 1
+      - path: Scene/Null/Small_Star_02_1/out_5
+        weight: 1
+      - path: Scene/Null/Small_Star_02_1/out_5/Cap_1_9
+        weight: 1
+      - path: Scene/Null/Small_Star_02_1/out_5/Cap_2_9
+        weight: 1
+      - path: Scene/Null/Small_star_03
+        weight: 1
+      - path: Scene/Null/Small_star_03/in_6
+        weight: 1
+      - path: Scene/Null/Small_star_03/in_6/Cap_1_12
+        weight: 1
+      - path: Scene/Null/Small_star_03/in_6/Cap_2_12
+        weight: 1
+      - path: Scene/Null/Small_star_03/out_6
+        weight: 1
+      - path: Scene/Null/Small_star_03/out_6/Cap_1_11
+        weight: 1
+      - path: Scene/Null/Small_star_03/out_6/Cap_2_11
+        weight: 1
+      - path: Scene/Null/Small_star_03_1
+        weight: 1
+      - path: Scene/Null/Small_star_03_1/in_7
+        weight: 1
+      - path: Scene/Null/Small_star_03_1/in_7/Cap_1_14
+        weight: 1
+      - path: Scene/Null/Small_star_03_1/in_7/Cap_2_14
+        weight: 1
+      - path: Scene/Null/Small_star_03_1/out_7
+        weight: 1
+      - path: Scene/Null/Small_star_03_1/out_7/Cap_1_13
+        weight: 1
+      - path: Scene/Null/Small_star_03_1/out_7/Cap_2_13
+        weight: 1
+      - path: Scene/Null/Star_big
+        weight: 1
+      - path: Scene/Null/Star_big/in
+        weight: 1
+      - path: Scene/Null/Star_big/in/Cap_1_2
+        weight: 1
+      - path: Scene/Null/Star_big/in/Cap_2_2
+        weight: 1
+      - path: Scene/Null/Star_big/out
+        weight: 1
+      - path: Scene/Null/Star_big/out/Cap_1
+        weight: 1
+      - path: Scene/Null/Star_big/out/Cap_2
+        weight: 1
+      - path: Small_star_01_1_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

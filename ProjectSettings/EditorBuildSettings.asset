@@ -5,21 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/LettersFloodTest.unity
   - enabled: 1
-    path: Assets/Scenes/Image1.unity
-  - enabled: 0
-    path: Assets/Image6.unity
-  - enabled: 0
-    path: Assets/Image6.unity
-  - enabled: 0
-    path: Assets/Scenes/Image5.unity
-  - enabled: 0
-    path: Assets/Gra.unity
-  - enabled: 0
-    path: Assets/Last.unity
-  - enabled: 0
-    path: Assets/World1-2.unity
-  - enabled: 0
+    path: Assets/Compelete.unity
+  - enabled: 1
     path: Assets/World3.unity
+  - enabled: 1
+    path: Assets/group.unity

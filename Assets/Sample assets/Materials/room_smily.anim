@@ -1,0 +1,354 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: room_smily
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1.10049985e-14, y: 214.63866, z: -5.77302e-15}
+        inSlope: {x: 8.916137e-22, y: 2.8372295, z: -2.2290342e-22}
+        outSlope: {x: 8.916137e-22, y: 2.8372295, z: -2.2290342e-22}
+        tangentMode: 0
+      - time: 1.5
+        value: {x: 1.1004999e-14, y: 218.8945, z: -5.7730204e-15}
+        inSlope: {x: 8.916137e-22, y: 16.301157, z: -2.2290342e-22}
+        outSlope: {x: 8.916137e-22, y: 16.301157, z: -2.2290342e-22}
+        tangentMode: 0
+      - time: 1.9
+        value: {x: 1.1005e-14, y: 227.40433, z: -5.7730204e-15}
+        inSlope: {x: 8.916137e-22, y: 16.43405, z: -2.2290342e-22}
+        outSlope: {x: 8.916137e-22, y: 16.43405, z: -2.2290342e-22}
+        tangentMode: 0
+      - time: 2.05
+        value: {x: 1.1005e-14, y: 228.8381, z: -5.7730204e-15}
+        inSlope: {x: 0, y: 1.3031149, z: 0}
+        outSlope: {x: 0, y: 1.3031149, z: 0}
+        tangentMode: 0
+      - time: 2.8
+        value: {x: 1.1005e-14, y: 218.0103, z: -5.7730204e-15}
+        inSlope: {x: 0, y: -7.630937, z: 0}
+        outSlope: {x: 0, y: -7.630937, z: 0}
+        tangentMode: 0
+      - time: 5.35
+        value: {x: 1.1005e-14, y: 214.96666, z: -5.7730204e-15}
+        inSlope: {x: 0, y: -1.1935844, z: 0}
+        outSlope: {x: 0, y: -1.1935844, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: 01_Room/Smily_face_01
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 3.865, y: 0.148, z: -2.24}
+        inSlope: {x: -0.85652167, y: 0.0760604, z: -0.00000087838424}
+        outSlope: {x: -0.85652167, y: 0.0760604, z: -0.00000087838424}
+        tangentMode: 0
+      - time: 1.15
+        value: {x: 2.88, y: 0.099, z: -2.240001}
+        inSlope: {x: -0.42826083, y: -0.2013043, z: -0.00000087838424}
+        outSlope: {x: -0.42826083, y: -0.2013043, z: -0.00000087838424}
+        tangentMode: 0
+      - time: 1.35
+        value: {x: 2.88, y: 0.027, z: -2.2400012}
+        inSlope: {x: 0, y: -0.01789765, z: -0.0000010038677}
+        outSlope: {x: 0, y: -0.01789765, z: -0.0000010038677}
+        tangentMode: 0
+      - time: 1.9
+        value: {x: 2.88, y: 0.2053125, z: -2.2400017}
+        inSlope: {x: 0, y: 0.19545457, z: -0.00000087838424}
+        outSlope: {x: 0, y: 0.19545457, z: -0.00000087838424}
+        tangentMode: 0
+      - time: 2.45
+        value: {x: 2.88, y: 0.242, z: -2.2400017}
+        inSlope: {x: 0, y: -0.42345235, z: 0}
+        outSlope: {x: 0, y: -0.42345235, z: 0}
+        tangentMode: 0
+      - time: 3.05
+        value: {x: 2.88, y: -0.30616543, z: -2.2400017}
+        inSlope: {x: 0, y: -0.011790674, z: 0}
+        outSlope: {x: 0, y: -0.011790674, z: 0}
+        tangentMode: 0
+      - time: 5.35
+        value: {x: 2.88, y: -0.31155777, z: -2.2400017}
+        inSlope: {x: 0, y: 0.0052260356, z: 0}
+        outSlope: {x: 0, y: 0.0052260356, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: 01_Room/Smily_face_01
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 20
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - path: 2339594065
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2339594065
+      attribute: 4
+      script: {fileID: 0}
+      classID: 4
+      customType: 14
+      isPPtrCurve: 0
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 5.35
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 1
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 3.865
+        inSlope: -0.85652167
+        outSlope: -0.85652167
+        tangentMode: 10
+      - time: 1.15
+        value: 2.88
+        inSlope: -0.42826083
+        outSlope: -0.42826083
+        tangentMode: 10
+      - time: 1.35
+        value: 2.88
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.9
+        value: 2.88
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 2.45
+        value: 2.88
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 5.35
+        value: 2.88
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: 01_Room/Smily_face_01
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0.148
+        inSlope: 0.0760604
+        outSlope: 0.0760604
+        tangentMode: 0
+      - time: 1.15
+        value: 0.099
+        inSlope: -0.2013043
+        outSlope: -0.2013043
+        tangentMode: 10
+      - time: 1.35
+        value: 0.027
+        inSlope: -0.01789765
+        outSlope: -0.01789765
+        tangentMode: 10
+      - time: 1.9
+        value: 0.2053125
+        inSlope: 0.19545457
+        outSlope: 0.19545457
+        tangentMode: 10
+      - time: 2.45
+        value: 0.242
+        inSlope: -0.42345235
+        outSlope: -0.42345235
+        tangentMode: 10
+      - time: 3.05
+        value: -0.30616543
+        inSlope: -0.011790674
+        outSlope: -0.011790674
+        tangentMode: 0
+      - time: 5.35
+        value: -0.31155777
+        inSlope: 0.0052260356
+        outSlope: 0.0052260356
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: 01_Room/Smily_face_01
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -2.24
+        inSlope: -0.00000087838424
+        outSlope: -0.00000087838424
+        tangentMode: 10
+      - time: 1.9
+        value: -2.2400017
+        inSlope: -0.00000087838424
+        outSlope: -0.00000087838424
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: 01_Room/Smily_face_01
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.10049985e-14
+        inSlope: 8.916137e-22
+        outSlope: 8.916137e-22
+        tangentMode: 10
+      - time: 1.9
+        value: 1.1005e-14
+        inSlope: 8.916137e-22
+        outSlope: 8.916137e-22
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: 01_Room/Smily_face_01
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 214.63866
+        inSlope: 2.8372295
+        outSlope: 2.8372295
+        tangentMode: 10
+      - time: 1.5
+        value: 218.8945
+        inSlope: 16.301157
+        outSlope: 16.301157
+        tangentMode: 0
+      - time: 2.05
+        value: 228.8381
+        inSlope: 1.3031149
+        outSlope: 1.3031149
+        tangentMode: 0
+      - time: 2.8
+        value: 218.0103
+        inSlope: -7.630937
+        outSlope: -7.630937
+        tangentMode: 0
+      - time: 5.35
+        value: 214.96666
+        inSlope: -1.1935844
+        outSlope: -1.1935844
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: 01_Room/Smily_face_01
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -5.77302e-15
+        inSlope: -2.2290342e-22
+        outSlope: -2.2290342e-22
+        tangentMode: 10
+      - time: 1.9
+        value: -5.7730204e-15
+        inSlope: -2.2290342e-22
+        outSlope: -2.2290342e-22
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: 01_Room/Smily_face_01
+    classID: 4
+    script: {fileID: 0}
+  m_EulerEditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: 01_Room/Smily_face_01
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: 01_Room/Smily_face_01
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: 01_Room/Smily_face_01
+    classID: 4
+    script: {fileID: 0}
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events: []

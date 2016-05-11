@@ -5,12 +5,12 @@ public class selfDestruct : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        if (instances <= 5)
-        {
-            Instantiate(letters, transform.position + offset, Quaternion.Euler(90,0,0));
-        }
-        instances++;
-        GetComponent<Animator>().SetBool("destruct", true);
+        //if (instances <= 5)
+        //{
+        //    Instantiate(letters, transform.position + offset, Quaternion.Euler(90,0,0));
+        //}
+        //instances++;
+        //GetComponent<Animator>().SetBool("destruct", true);
 	}
 	
 	// Update is called once per frame

@@ -12,19 +12,18 @@ public class CameraFocus : MonoBehaviour {
         RaycastHit info;
         if(Physics.Raycast(transform.position, transform.forward, out info))
         {
-            Transform parent = info.transform.parent;
-            if(parent != null)
+            if(info.transform.tag == "lookable")
             {
-                Debug.Log(parent.name);
-                PopMessage m = parent.GetComponent<PopMessage>();
+                PopMessage m = info.transform.GetComponent<PopMessage>();
                 if (m != null)
                 {
+                    Debug.Log("looked");
                     m.inCameraFocus();
                 }
             }
         }
     }
-    void OnDrawGizmosSelected()
+    void OnDrawGizmos()
     {
             Gizmos.color = Color.blue;
             Gizmos.DrawLine(transform.position, transform.position + transform.forward.normalized * 100);

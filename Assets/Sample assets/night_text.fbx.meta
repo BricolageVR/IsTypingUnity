@@ -1,0 +1,253 @@
+fileFormatVersion: 2
+guid: e8194f567515a1548a1da241071c6770
+timeCreated: 1462807043
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: CINEMA_4D_Editor
+    100002: MoText_2
+    100004: MoText_2_1
+    100006: MoText_2_10
+    100008: MoText_2_11
+    100010: MoText_2_12
+    100012: MoText_2_13
+    100014: MoText_2_14
+    100016: MoText_2_15
+    100018: MoText_2_16
+    100020: MoText_2_17
+    100022: MoText_2_18
+    100024: MoText_2_19
+    100026: MoText_2_2
+    100028: MoText_2_20
+    100030: MoText_2_3
+    100032: MoText_2_4
+    100034: MoText_2_5
+    100036: MoText_2_6
+    100038: MoText_2_7
+    100040: MoText_2_8
+    100042: MoText_2_9
+    100044: //RootNode
+    400000: CINEMA_4D_Editor
+    400002: MoText_2
+    400004: MoText_2_1
+    400006: MoText_2_10
+    400008: MoText_2_11
+    400010: MoText_2_12
+    400012: MoText_2_13
+    400014: MoText_2_14
+    400016: MoText_2_15
+    400018: MoText_2_16
+    400020: MoText_2_17
+    400022: MoText_2_18
+    400024: MoText_2_19
+    400026: MoText_2_2
+    400028: MoText_2_20
+    400030: MoText_2_3
+    400032: MoText_2_4
+    400034: MoText_2_5
+    400036: MoText_2_6
+    400038: MoText_2_7
+    400040: MoText_2_8
+    400042: MoText_2_9
+    400044: //RootNode
+    2300000: MoText_2_1
+    2300002: MoText_2_10
+    2300004: MoText_2_11
+    2300006: MoText_2_12
+    2300008: MoText_2_13
+    2300010: MoText_2_14
+    2300012: MoText_2_15
+    2300014: MoText_2_16
+    2300016: MoText_2_17
+    2300018: MoText_2_18
+    2300020: MoText_2_19
+    2300022: MoText_2_2
+    2300024: MoText_2_20
+    2300026: MoText_2_3
+    2300028: MoText_2_4
+    2300030: MoText_2_5
+    2300032: MoText_2_6
+    2300034: MoText_2_7
+    2300036: MoText_2_8
+    2300038: MoText_2_9
+    3300000: MoText_2_1
+    3300002: MoText_2_10
+    3300004: MoText_2_11
+    3300006: MoText_2_12
+    3300008: MoText_2_13
+    3300010: MoText_2_14
+    3300012: MoText_2_15
+    3300014: MoText_2_16
+    3300016: MoText_2_17
+    3300018: MoText_2_18
+    3300020: MoText_2_19
+    3300022: MoText_2_2
+    3300024: MoText_2_20
+    3300026: MoText_2_3
+    3300028: MoText_2_4
+    3300030: MoText_2_5
+    3300032: MoText_2_6
+    3300034: MoText_2_7
+    3300036: MoText_2_8
+    3300038: MoText_2_9
+    4300000: MoText_2_1
+    4300002: MoText_2_2
+    4300004: MoText_2_3
+    4300006: MoText_2_4
+    4300008: MoText_2_5
+    4300010: MoText_2_6
+    4300012: MoText_2_7
+    4300014: MoText_2_8
+    4300016: MoText_2_9
+    4300018: MoText_2_10
+    4300020: MoText_2_11
+    4300022: MoText_2_12
+    4300024: MoText_2_13
+    4300026: MoText_2_14
+    4300028: MoText_2_15
+    4300030: MoText_2_16
+    4300032: MoText_2_17
+    4300034: MoText_2_18
+    4300036: MoText_2_19
+    4300038: MoText_2_20
+    7400000: C4D Animation Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: C4D Animation Take
+      takeName: C4D Animation Take
+      firstFrame: 1
+      lastFrame: 65
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CINEMA_4D_Editor
+        weight: 1
+      - path: MoText_2
+        weight: 1
+      - path: MoText_2_1
+        weight: 1
+      - path: MoText_2_2
+        weight: 1
+      - path: MoText_2_3
+        weight: 1
+      - path: MoText_2_4
+        weight: 1
+      - path: MoText_2_5
+        weight: 1
+      - path: MoText_2_6
+        weight: 1
+      - path: MoText_2_7
+        weight: 1
+      - path: MoText_2_8
+        weight: 1
+      - path: MoText_2_9
+        weight: 1
+      - path: MoText_2_10
+        weight: 1
+      - path: MoText_2_11
+        weight: 1
+      - path: MoText_2_12
+        weight: 1
+      - path: MoText_2_13
+        weight: 1
+      - path: MoText_2_14
+        weight: 1
+      - path: MoText_2_15
+        weight: 1
+      - path: MoText_2_16
+        weight: 1
+      - path: MoText_2_17
+        weight: 1
+      - path: MoText_2_18
+        weight: 1
+      - path: MoText_2_19
+        weight: 1
+      - path: MoText_2_20
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

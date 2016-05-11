@@ -7,6 +7,7 @@ public class ActivateImage4 : MonoBehaviour {
     private Material skyboxNight;
 	// Use this for initialization
 	void Start () {
+        RenderSettings.ambientLight = Color.black;
         RenderSettings.skybox = skyboxNight;
 	}
 	

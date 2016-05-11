@@ -14,6 +14,8 @@ public class ChangeMovementStyle : MonoBehaviour {
 	}
     [SerializeField]
     private MovementMode mode;
+    [SerializeField]
+    private float speed;
     void OnTriggerEnter(Collider c)
     {
         if(c.tag == "Player")
@@ -22,6 +24,7 @@ public class ChangeMovementStyle : MonoBehaviour {
             if(m != null)
             {
                 m.mode = mode;
+                m.Speed = speed;
             }
         }
     }

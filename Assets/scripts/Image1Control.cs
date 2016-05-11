@@ -13,10 +13,12 @@ public class Image1Control : MonoBehaviour {
 	
 	}
     public action[] actions;
+    public Transform cam;
 	// Update is called once per frame
 	void Update () {
         if(Input.GetMouseButtonDown(0))
         {
+            cam.rotation = Quaternion.identity;
             Debug.Log("Presentation started");
             for(int i = 0;i<actions.Length;i++)
             {

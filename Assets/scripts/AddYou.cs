@@ -19,7 +19,15 @@ public class AddYou : MonoBehaviour,IEnable {
         Vector3 direction = groupParent.GetComponent<Subgroup>().Direction.normalized;
         getChilds();
         Debug.Log(childs.Count);
-        Vector3 desiredPos = childs[position].localPosition;
+        Vector3 desiredPos;
+        if (position<childs.Count)
+        {
+            desiredPos = childs[position].localPosition;
+        }
+        else
+        {
+            desiredPos = childs[0].localPosition + offset*direction;
+        }
         nextParent.gameObject.SetActive(true);
         for(int i = 0;i<childs.Count;i++)
         {
@@ -53,12 +61,12 @@ public class AddYou : MonoBehaviour,IEnable {
     [SerializeField]
     private float speed = 1;
     [SerializeField]
-    private int position;
+    public int position;
 	public void Enable(object data)
     {
         this.enabled = true;
         gameObject.SetActive(true);
-        position = Convert.ToInt32(data);
+        //position = Convert.ToInt32(data);
     }
 
     private void getChilds()

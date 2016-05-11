@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/group.unity
+- path: Assets/Compelete.unity
   isLoaded: 1
   isActive: 1

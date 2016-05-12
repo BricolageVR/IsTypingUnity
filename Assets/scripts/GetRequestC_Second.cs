@@ -49,6 +49,7 @@ public class GetRequestC_Second : MonoBehaviour {
     {
         //assign data to the mesages
         var data = JSON.Parse(dataText);
+		Debug.Log ("data" + data);
         for (int i = 0; i < dreamMessagesParent.childCount; i++)
         {
             if(i < data.Count)

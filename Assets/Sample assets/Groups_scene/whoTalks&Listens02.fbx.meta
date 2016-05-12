@@ -350,7 +350,187 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: C4D Animation Take
+      takeName: C4D Animation Take
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: And
+        weight: 1
+      - path: And/1_3
+        weight: 1
+      - path: And/1_3/_
+        weight: 1
+      - path: And/1_3/_/__2
+        weight: 1
+      - path: And/1_3/_/__2/Cap_1_19
+        weight: 1
+      - path: And/1_3/_/__2/Cap_2_19
+        weight: 1
+      - path: CINEMA_4D_Editor
+        weight: 1
+      - path: who_listens
+        weight: 1
+      - path: who_listens/Null
+        weight: 1
+      - path: who_listens/Null/MoText_1
+        weight: 1
+      - path: who_listens/Null/MoText_1/Text
+        weight: 1
+      - path: who_listens/Null/MoText_1/Text/1
+        weight: 1
+      - path: who_listens/Null/MoText_1/Text/1/LISTENS
+        weight: 1
+      - path: who_listens/Null/MoText_1/Text/1/LISTENS/E
+        weight: 1
+      - path: who_listens/Null/MoText_1/Text/1/LISTENS/E/Cap_1_8
+        weight: 1
+      - path: who_listens/Null/MoText_1/Text/1/LISTENS/E/Cap_2_8
+        weight: 1
+      - path: who_listens/Null/MoText_1/Text/1/LISTENS/I
+        weight: 1
+      - path: who_listens/Null/MoText_1/Text/1/LISTENS/I/Cap_1_5
+        weight: 1
+      - path: who_listens/Null/MoText_1/Text/1/LISTENS/I/Cap_2_5
+        weight: 1
+      - path: who_listens/Null/MoText_1/Text/1/LISTENS/L
+        weight: 1
+      - path: who_listens/Null/MoText_1/Text/1/LISTENS/L/Cap_1_4
+        weight: 1
+      - path: who_listens/Null/MoText_1/Text/1/LISTENS/L/Cap_2_4
+        weight: 1
+      - path: who_listens/Null/MoText_1/Text/1/LISTENS/N
+        weight: 1
+      - path: who_listens/Null/MoText_1/Text/1/LISTENS/N/Cap_1_9
+        weight: 1
+      - path: who_listens/Null/MoText_1/Text/1/LISTENS/N/Cap_2_9
+        weight: 1
+      - path: who_listens/Null/MoText_1/Text/1/LISTENS/S
+        weight: 1
+      - path: who_listens/Null/MoText_1/Text/1/LISTENS/S/Cap_1_6
+        weight: 1
+      - path: who_listens/Null/MoText_1/Text/1/LISTENS/S/Cap_2_6
+        weight: 1
+      - path: who_listens/Null/MoText_1/Text/1/LISTENS/S_2
+        weight: 1
+      - path: who_listens/Null/MoText_1/Text/1/LISTENS/S_2/Cap_1_10
+        weight: 1
+      - path: who_listens/Null/MoText_1/Text/1/LISTENS/S_2/Cap_2_10
+        weight: 1
+      - path: who_listens/Null/MoText_1/Text/1/LISTENS/T
+        weight: 1
+      - path: who_listens/Null/MoText_1/Text/1/LISTENS/T/Cap_1_7
+        weight: 1
+      - path: who_listens/Null/MoText_1/Text/1/LISTENS/T/Cap_2_7
+        weight: 1
+      - path: who_listens/Null/MoText_1/Text/1/WHO
+        weight: 1
+      - path: who_listens/Null/MoText_1/Text/1/WHO/H
+        weight: 1
+      - path: who_listens/Null/MoText_1/Text/1/WHO/H/Cap_1_2
+        weight: 1
+      - path: who_listens/Null/MoText_1/Text/1/WHO/H/Cap_2_2
+        weight: 1
+      - path: who_listens/Null/MoText_1/Text/1/WHO/O
+        weight: 1
+      - path: who_listens/Null/MoText_1/Text/1/WHO/O/Cap_1_3
+        weight: 1
+      - path: who_listens/Null/MoText_1/Text/1/WHO/O/Cap_2_3
+        weight: 1
+      - path: who_listens/Null/MoText_1/Text/1/WHO/W
+        weight: 1
+      - path: who_listens/Null/MoText_1/Text/1/WHO/W/Cap_1
+        weight: 1
+      - path: who_listens/Null/MoText_1/Text/1/WHO/W/Cap_2
+        weight: 1
+      - path: who_talks
+        weight: 1
+      - path: who_talks/Null_2
+        weight: 1
+      - path: who_talks/Null_2/MoText_1_2
+        weight: 1
+      - path: who_talks/Null_2/MoText_1_2/Text_2
+        weight: 1
+      - path: who_talks/Null_2/MoText_1_2/Text_2/1_2
+        weight: 1
+      - path: who_talks/Null_2/MoText_1_2/Text_2/1_2/TALKS
+        weight: 1
+      - path: who_talks/Null_2/MoText_1_2/Text_2/1_2/TALKS/A
+        weight: 1
+      - path: who_talks/Null_2/MoText_1_2/Text_2/1_2/TALKS/A/Cap_1_15
+        weight: 1
+      - path: who_talks/Null_2/MoText_1_2/Text_2/1_2/TALKS/A/Cap_2_15
+        weight: 1
+      - path: who_talks/Null_2/MoText_1_2/Text_2/1_2/TALKS/K
+        weight: 1
+      - path: who_talks/Null_2/MoText_1_2/Text_2/1_2/TALKS/K/Cap_1_17
+        weight: 1
+      - path: who_talks/Null_2/MoText_1_2/Text_2/1_2/TALKS/K/Cap_2_17
+        weight: 1
+      - path: who_talks/Null_2/MoText_1_2/Text_2/1_2/TALKS/L_2
+        weight: 1
+      - path: who_talks/Null_2/MoText_1_2/Text_2/1_2/TALKS/L_2/Cap_1_16
+        weight: 1
+      - path: who_talks/Null_2/MoText_1_2/Text_2/1_2/TALKS/L_2/Cap_2_16
+        weight: 1
+      - path: who_talks/Null_2/MoText_1_2/Text_2/1_2/TALKS/S_3
+        weight: 1
+      - path: who_talks/Null_2/MoText_1_2/Text_2/1_2/TALKS/S_3/Cap_1_18
+        weight: 1
+      - path: who_talks/Null_2/MoText_1_2/Text_2/1_2/TALKS/S_3/Cap_2_18
+        weight: 1
+      - path: who_talks/Null_2/MoText_1_2/Text_2/1_2/TALKS/T_2
+        weight: 1
+      - path: who_talks/Null_2/MoText_1_2/Text_2/1_2/TALKS/T_2/Cap_1_14
+        weight: 1
+      - path: who_talks/Null_2/MoText_1_2/Text_2/1_2/TALKS/T_2/Cap_2_14
+        weight: 1
+      - path: who_talks/Null_2/MoText_1_2/Text_2/1_2/WHO_2
+        weight: 1
+      - path: who_talks/Null_2/MoText_1_2/Text_2/1_2/WHO_2/H_2
+        weight: 1
+      - path: who_talks/Null_2/MoText_1_2/Text_2/1_2/WHO_2/H_2/Cap_1_12
+        weight: 1
+      - path: who_talks/Null_2/MoText_1_2/Text_2/1_2/WHO_2/H_2/Cap_2_12
+        weight: 1
+      - path: who_talks/Null_2/MoText_1_2/Text_2/1_2/WHO_2/O_2
+        weight: 1
+      - path: who_talks/Null_2/MoText_1_2/Text_2/1_2/WHO_2/O_2/Cap_1_13
+        weight: 1
+      - path: who_talks/Null_2/MoText_1_2/Text_2/1_2/WHO_2/O_2/Cap_2_13
+        weight: 1
+      - path: who_talks/Null_2/MoText_1_2/Text_2/1_2/WHO_2/W_2
+        weight: 1
+      - path: who_talks/Null_2/MoText_1_2/Text_2/1_2/WHO_2/W_2/Cap_1_11
+        weight: 1
+      - path: who_talks/Null_2/MoText_1_2/Text_2/1_2/WHO_2/W_2/Cap_2_11
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []

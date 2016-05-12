@@ -114,28 +114,28 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_GenerateMotionCurves: 0
   m_Events:
-  - time: 0
+  - time: 2.0666666
     functionName: playSound
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 1
     messageOptions: 0
-  - time: 5
+  - time: 2.5666666
     functionName: playAnimation
     data: flow
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 9.166667
+  - time: 9.3
     functionName: stopSound
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 9.566667
+  - time: 9.7
     functionName: stopSound
     data: 
     objectReferenceParameter: {fileID: 0}

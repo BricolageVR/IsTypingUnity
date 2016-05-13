@@ -101,7 +101,7 @@ public class GetRequestC_Second1 : MonoBehaviour {
                         groups[i].GetChild(j).GetComponent<TextMesh>().text = ArabicFixer.Fix(groupsData[i].names[j],false,false);
                     else
                     {
-                        yous[i].GetComponent<TextMesh>().text = ArabicFixer.Fix(groupsData[i].names[j], false, false);
+                        yous[i].GetComponent<TextMesh>().text = "You";
                         yous[i].GetComponent<AddYou>().position = j;
                         groupsData[i].names.Remove(nickname);
                         j--;
@@ -125,7 +125,7 @@ public class GetRequestC_Second1 : MonoBehaviour {
         for(int i =0;i<data.Count;i++)
         {
             string Name = ArabicFixer.Fix(data[i]["name"].Value,false, false);
-            string Message = ArabicFixer.Fix(data[i]["text"].Value, false, false);
+            string Message = data[i]["text"].Value;
             if (Name == nickname)
             {
                 Name = "Me";
@@ -134,9 +134,10 @@ public class GetRequestC_Second1 : MonoBehaviour {
             {
                 {"Name",Name },
                 {"Message",Message}
-            });
-            text.GetComponent<AlignText>().Messages = Messages;
-            text.GetComponent<AlignText>().RL = RL;
+            }); 
         }
-}
+        text.GetComponent<AlignText>().Messages = Messages;
+        text.GetComponent<AlignText>().RL = RL;
+        text.GetComponent<AlignText>().GenerateMessagesFlow();
+    }
 }

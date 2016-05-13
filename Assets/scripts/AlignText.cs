@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System;
+using ArabicSupport;
 
 
 public class AlignText : MonoBehaviour {
@@ -30,7 +31,7 @@ public class AlignText : MonoBehaviour {
     // Use this for initialization
     void Start () {
         heightOffsetVector = Vector3.down * heightOffset;
-        GenerateMessagesFlow();
+        //GenerateMessagesFlow();
     }
 
     public void GenerateMessagesFlow()
@@ -92,11 +93,21 @@ public class AlignText : MonoBehaviour {
         string output = "";
         int i = 0;
         rowsNum = 0;
+        text = text.Replace('\n',' ');
         while(i<text.Length)
         {
-            string line = text.Substring(i, text.LastIndexOf(" ",Mathf.Min(i + rowLength,text.Length-1)) - i );
-            if (line == "")
-                break;
+            //string line = text.Substring(i, text.LastIndexOf(" ",Mathf.Min(i + rowLength,text.Length-1)) - i );
+            //if (line == "")
+            //    break;
+            //output += line + "\n";
+            //i += line.Length;
+            //rowsNum++;
+            string line = text.Substring(i, (rowLength<(text.Length - i)) ? rowLength:(text.Length-i));
+            int cutIndex = line.LastIndexOf(" ");
+            if(RL)
+                line = ArabicFixer.Fix(line.Substring(0, (cutIndex>0) ? cutIndex : line.Length),false,false);
+            else
+                line = line.Substring(0, (cutIndex > 0) ? cutIndex : line.Length);
             output += line + "\n";
             i += line.Length;
             rowsNum++;

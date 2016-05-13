@@ -54,7 +54,7 @@ public class GetRequestC : MonoBehaviour
 
     private IEnumerator GetData(Handler op, Action<string> callback)
     {
-        string url = "http://192.168.173.1:8888/" + handler.ToString();
+        string url = "http://192.168.173.1:8888/" + op.ToString();
         //string url = "http://localhost:8888/" + op.ToString();
         WWW www = new WWW(url);
         yield return www;
